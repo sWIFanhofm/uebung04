@@ -21,7 +21,7 @@ class SetImpl<T extends Comparable<T>> implements Set<T> {
 		throw new UnsupportedOperationException();
 	}
 
-	private class Element {
+	private class Element { //Test
 		T val;
 		Element left, right;
 		Element(T v, Element l, Element r) {
